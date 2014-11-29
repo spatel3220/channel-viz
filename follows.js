@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= [1717676570], // Comma separated array of Xively Feed ID numbers
 		applicationName	= '', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
@@ -411,7 +411,8 @@
 	});
 
 	if(key != '' && feedString != '') {
-		setApiKey($('#apiKeyInput').val());
+		//setApiKey($('#apiKeyInput').val());
+		setApiKey(9M8kqb3wyO4BCWJ2dexfVjFlHKbCZEXb0tTQtFm52AB6UlAd);
 		feeds = $('#feedsInput').val().replace(/\s+/g, '').split(',');
 		setFeeds(feeds);
 	}
