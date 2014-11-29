@@ -413,8 +413,8 @@
 	if(key != '' && feedString != '') {
 		//setApiKey($('#apiKeyInput').val());
 		setApiKey(9M8kqb3wyO4BCWJ2dexfVjFlHKbCZEXb0tTQtFm52AB6UlAd);
-		//feeds = $('#feedsInput').val().replace(/\s+/g, '').split(',');
-		feeds = '1717676570';
+		feeds = $('#feedsInput').val().replace(/\s+/g, '').split(',');
+		//feeds = '1717676570';
 		setFeeds(feeds);
 	}
 
