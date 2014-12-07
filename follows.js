@@ -3,8 +3,8 @@
 	/*
 	EXAMPLE CONFIGURATION
 
-		var defaultKey	= 'fje329iun52ngtuijo2f4jeun432A', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [61916,12425,94322], // Comma separated array of Xively Feed ID numbers
+		var defaultKey	= '9M8kqb3wyO4BCWJ2dexfVjFlHKbCZEXb0tTQtFm52AB6UlAd', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [1717676570], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'My Company\'s Application', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
