@@ -211,6 +211,7 @@
 	}
 
 	function setFeeds(feeds) {
+		console.log(feeds);
 		$('#welcome').addClass('hidden');
 		feeds.forEach(function(id) {
 
